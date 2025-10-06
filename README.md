@@ -2,7 +2,7 @@
 yawcamai configurations and helper scripts
 
 Some basic info:
-- as a program to manage IP cameras and webcams https://www.yawcam.com/
+- Yawcam as a program to manage IP cameras and webcams https://www.yawcam.com/
 - Nvidia RTX graphics card to run face recognition model
 - nssm to run yawcam as a service without the need for a logged-in user
 - frp(fast reverse proxy) to control the system remotely under a nat3 network
