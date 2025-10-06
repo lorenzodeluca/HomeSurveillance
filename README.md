@@ -8,3 +8,24 @@ Some basic info:
 - frp(fast reverse proxy) to control the system remotely under a nat3 network
 - Telegram bot to receive alerts from video cameras with photos
 - The computer is configured to restart automatically after a power outage. I also use smart plugs to manually override the power if necessary and monitor the status of the electrical grid.
+
+# How to create the telegram bot (LLM generated)
+### 1. **Create a Telegram Bot**
+
+1. Open Telegram and search for `@BotFather`.
+2. Send `/newbot` and follow the instructions.
+3. You'll receive a **bot token** like:
+
+   ```
+   123456789:ABCdefGHIjkLMNOPqrsTUVwxyz123456789
+   ```
+
+### 2. **Get Your Chat ID**
+
+1. Start a chat with your bot (just send any message).
+2. Visit this URL (replace `YOUR_BOT_TOKEN`):
+
+   ```
+   https://api.telegram.org/botYOUR_BOT_TOKEN/getUpdates
+   ```
+3. Find the `"chat":{"id":<your_chat_id>}` in the response.
