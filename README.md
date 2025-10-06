@@ -29,3 +29,10 @@ Some basic info:
    https://api.telegram.org/botYOUR_BOT_TOKEN/getUpdates
    ```
 3. Find the `"chat":{"id":<your_chat_id>}` in the response.
+
+### 3. **Configure Yawcam**
+
+1. Open **Yawcam**.
+2. Go to **Settings > Motion Detection > Actions**.
+3. Enable “**Run**”.
+4. Set the path to your `.bat` or `.ps1` script. (for ps1 scripts you need to create a bat script that runs the ps1 script , i tried running the ps1 script directly but it didn't work)
