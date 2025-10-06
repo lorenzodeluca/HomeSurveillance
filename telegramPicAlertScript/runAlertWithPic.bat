@@ -1,0 +1,1 @@
+powershell.exe -ExecutionPolicy Bypass -File "L:\Sorveglianza\telegramAlertWithPic.ps1"
