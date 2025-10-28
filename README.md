@@ -1,3 +1,5 @@
+todo: improve doc
+
 # HomeSurveillance
 yawcamai configurations and helper scripts
 
