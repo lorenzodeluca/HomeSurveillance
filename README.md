@@ -36,3 +36,7 @@ Some basic info:
 2. Go to **Settings > Motion Detection > Actions**.
 3. Enable “**Run**”.
 4. Set the path to your `.bat` or `.ps1` script. (for ps1 scripts you need to create a bat script that runs the ps1 script , i tried running the ps1 script directly but it didn't work)
+
+
+### 4. other infos
+usefull cmd: mklink /D "C:{{userhomefolderpath}}\.yawcam-ai" "L:\surveillance\.yawcam-ai"
